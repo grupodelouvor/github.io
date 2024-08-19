@@ -130,3 +130,40 @@ main {
 .back-button:hover {
     background-color: #21a1f1;
 }
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1rem;
+}
+
+#search {
+    width: calc(100% - 2.5rem);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#search:focus {
+    border-color: #61dafb;
+}
+
+.clear-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #7f8c8d;
+    transition: color 0.3s ease;
+}
+
+.clear-button:hover {
+    color: #61dafb;
+}
