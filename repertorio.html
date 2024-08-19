@@ -6,18 +6,25 @@
     <title>Repertório - Grupo de Louvor</title>
     <link rel="stylesheet" href="css/styles_repertorio.css">
 </head>
+
+<!----------------------------------------------------------------------->
+
 <body>
     <header>
+
         <div class="container">
             <h1>Repertório</h1>
-            <input type="text" id="search" placeholder="Buscar música...">
-        </div>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Buscar música ou cantor...">
+                <button id="clear-search" class="clear-button" aria-label="Limpar pesquisa">✖</button>
+            </div>
     </header>
+
     <main>
         <div class="container">
             <section id="playlist">
                 <ul>
-                    <!-- Exemplo de item da playlist -->
+                    <!-- Item da playlist -->
                     <li class="playlist-item">
                         <div class="song-info">
                             <h3>01 - O que sua Gloria fez comigo</h3>
@@ -26,13 +33,10 @@
                         <div class="actions">
                             <a href="https://www.youtube.com/watch?v=ldbDRHnIel8" target="_blank" class="action-button">Ouvir</a>
                             <a href="https://www.letras.mus.br/fernanda-brum/o-que-sua-gloria-fez-comigo/" target="_blank" class="action-button">Letra</a>
-                            <a href="https://www.cifraclub.com.br/fernanda-brum/o-que-tua-gloria-fez-comigo/" target="_blank" class="action-button">Cifra</a>
+                            <a href="https://www.cifraclub.com.br/fernanda-brum/o-que-sua-gloria-fez-comigo/" target="_blank" class="action-button">Cifra</a>
                         </div>
                     </li>
-
-                </li>
-
-                <li class="playlist-item">
+                    <li class="playlist-item">
                     <div class="song-info">
                         <h3>02 - Abre os selos</h3>
                         <p>Nívea Soares</p>
@@ -42,9 +46,9 @@
                         <a href="https://www.letras.mus.br/nivea-soares/abre-os-selos/" target="_blank" class="action-button">Letra</a>
                         <a href="https://www.cifraclub.com.br/nivea-soares/abre-os-selos/" target="_blank" class="action-button">Cifra</a>
                     </div>
-                </li>
+                    </li>
 
-                <li class="playlist-item">
+                    <li class="playlist-item">
                     <div class="song-info">
                         <h3>03 - Santo pra sempre</h3>
                         <p>Ana Nóbrega</p>
@@ -54,21 +58,209 @@
                         <a href="https://www.letras.mus.br/ana-nobrega/santo-pra-sempre/" target="_blank" class="action-button">Letra</a>
                         <a href="https://www.cifraclub.com.br/ana-nobrega/santo-pra-sempre/" target="_blank" class="action-button">Cifra</a>
                     </div>
-                </li>
-
-                <!--
-                <li class="playlist-item">
+                    </li>
+                    <li class="playlist-item">
                     <div class="song-info">
-                        <h3>00 - </h3>
-                        <p>Cantor(a)</p>
+                        <h3>04 - Eu me rendo</h3>
+                        <p>Renascer Prise</p>
                     </div>
                     <div class="actions">
-                        <a href="" target="_blank" class="action-button">Ouvir</a>
-                        <a href="" target="_blank" class="action-button">Letra</a>
-                        <a href="" target="_blank" class="action-button">Cifra</a>
+                        <a href="https://www.youtube.com/watch?v=qmRVarX4X1M" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.com/renascer-praise/856021/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/renascer-praise/eu-me-rendo/" target="_blank" class="action-button">Cifra</a>
                     </div>
-                </li>
-                -->
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>05 - Santo Espírito</h3>
+                        <p>Laura Souguelis</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=J2rTdu7vqTE" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/laura-souguellis/santo-espirito-holy-spirit/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/laura-souguellis/santo-espirito/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>06 - Toca em mim de novo </h3>
+                        <p>Isadora Pompeo</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=87Xkee96Gk4" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/isadora-pompeo/toca-em-mim-de-novo/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/isadora-pompeo/toca-em-mim-de-novo/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>07 - Grande é Senhor</h3>
+                        <p>Eli Soares</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=6OnuqNFeGUY" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/nivea-soares/1094801/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/eli-soares/grande--o-senhor/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>08 - Clamo Jesus</h3>
+                        <p>Paulo Cesar Baruk, Marsena</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=ye9caqETC0A" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/paulo-cesar-baruk/clamo-jesus/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/paulo-cesar-baruk/clamo-jesus/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>09 - Quem é como nosso Deus </h3>
+                        <p>Nívea Soares</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=QRilv78Rroc" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/nivea-soares/quem-e-como-nosso-deus/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/nivea-soares/quem-e-como-nosso-deus/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>10 - Relance (Digno é o Cordeiro) </h3>
+                        <p>Diante do Trono</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=Zv-xC5lMcWE" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/diante-do-trono/medley-relance-digno-e-o-cordeiro/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/diante-do-trono/relance/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>11 - Eu vou construir</h3>
+                        <p>Nívea Soares</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=bFoIro0Zl2Y" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/nivea-soares/eu-vou-construir/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/nivea-soares/eu-vou-construir/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>12 - Canção ao Cordeiro</h3>
+                        <p>Israel Salazar, Gabriel Guedes</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=bxMzZVfh7zc" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/israel-salazar/cancao-ao-cordeiro-part-gabriel-guedes/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/israel-salazar/cancao-ao-cordeiro-part-gabriel-guedes/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>13 - Eu Vi Alguém Mais Belo</h3>
+                        <p>Fhop Music</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=PgDFyCdv80o" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/florianopolis-house-of-prayer/eu-vi-alguem-mais-belo/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/florianopolis-house-of-prayer/eu-vi-alguem-mais-belo/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>14 - Os que olham para Ti</h3>
+                        <p>Fhop Music</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=Dv-7mBQNEIo" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/florianopolis-house-of-prayer/os-que-olham-para-ti/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/florianopolis-house-of-prayer/os-que-olham-para-ti/" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+                    <li class="playlist-item">
+                    <div class="song-info">
+                        <h3>15 - Vem, esta é hora</h3>
+                        <p>Vineyard</p>
+                    </div>
+                    <div class="actions">
+                        <a href="https://www.youtube.com/watch?v=7j5aLkEe_vE" target="_blank" class="action-button">Ouvir</a>
+                        <a href="https://www.letras.mus.br/vineyard/69527/" target="_blank" class="action-button">Letra</a>
+                        <a href="https://www.cifraclub.com.br/vineyard/vem-esta-a-hora/#instrument=guitar" target="_blank" class="action-button">Cifra</a>
+                    </div>
+                    </li>
+
+                    <li class="playlist-item">
+                        <div class="song-info">
+                            <h3>16 - Nosso general</h3>
+                            <p>Adhemar de Campos, Nívea Soares</p>
+                        </div>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=XKFHXLzsZ5Q" target="_blank" class="action-button">Ouvir</a>
+                            <a href="https://www.letras.mus.br/nivea-soares/nosso-general-part-adhemar-de-campos/" target="_blank" class="action-button">Letra</a>
+                            <a href="https://www.cifraclub.com.br/nivea-soares/grande-e-o-senhor-part-adhemar-campos/" target="_blank" class="action-button">Cifra</a>
+                        </div>
+                    </li>
+                    <li class="playlist-item">
+                        <div class="song-info">
+                            <h3>17 - Óleo de alegria</h3>
+                            <p>Alda Célia</p>
+                        </div>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=ULUYuQ4ZWwM" target="_blank" class="action-button">Ouvir</a>
+                            <a href="https://www.letras.mus.br/alda-celia/163065/" target="_blank" class="action-button">Letra</a>
+                            <a href="https://www.cifraclub.com.br/alda-celia/oleo-de-alegria/" target="_blank" class="action-button">Cifra</a>
+                        </div>
+                    </li>
+                    <li class="playlist-item">
+                        <div class="song-info">
+                            <h3>18 - Medley Ouve-se o Júbilo/O Leão da Tribo de Judá</h3>
+                            <p>Banda G8</p>
+                        </div>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=seQFiFVmcXI" target="_blank" class="action-button">Ouvir</a>
+                            <a href="" target="_blank" class="action-button">Letra</a>
+                            <a href="" target="_blank" class="action-button">Cifra</a>
+                        </div>
+                    </li>
+                    <li class="playlist-item">
+                        <div class="song-info">
+                            <h3>19 - Hoje é tempo de Louvar a Deus</h3>
+                            <p>IBAB (Igreja Batista Água Branca)</p>
+                        </div>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=tC036juC1EE" target="_blank" class="action-button">Ouvir</a>
+                            <a href="https://www.letras.mus.br/ibab-celebracao/hoje-e-tempo-de-louvar-a-deus/" target="_blank" class="action-button">Letra</a>
+                            <a href="https://www.cifraclub.com.br/ibab-celebracao/hoje-e-tempo-de-louvar-a-deus/" target="_blank" class="action-button">Cifra</a>
+                        </div>
+                    </li>
+                    <li class="playlist-item">
+                        <div class="song-info">
+                            <h3>20 - Quebrantado</h3>
+                            <p>Vineyard</p>
+                        </div>
+                        <div class="actions">
+                            <a href="https://www.youtube.com/watch?v=QbnmpJo3DiI" target="_blank" class="action-button">Ouvir</a>
+                            <a href="https://www.letras.mus.br/vineyard/1134190/" target="_blank" class="action-button">Letra</a>
+                            <a href="https://www.cifraclub.com.br/vineyard/quebrantado/" target="_blank" class="action-button">Cifra</a>
+                        </div>
+                    </li>
+
+                     <!--
+                    <li class="playlist-item">
+                        <div class="song-info">
+                            <h3>00 - </h3>
+                            <p>Cantor(a)</p>
+                        </div>
+                        <div class="actions">
+                            <a href="" target="_blank" class="action-button">Ouvir</a>
+                            <a href="" target="_blank" class="action-button">Letra</a>
+                            <a href="" target="_blank" class="action-button">Cifra</a>
+                        </div>
+                    </li>
+                    -->
 
                 <!-- Repetir até alcançar 60 músicas -->
 
